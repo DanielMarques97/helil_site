@@ -1,4 +1,3 @@
-// Script de animação simples para suavizar a rolagem
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
@@ -8,7 +7,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Efeito fade-in nas seções quando aparecem
 const sections = document.querySelectorAll('section');
 window.addEventListener('scroll', () => {
   sections.forEach(sec => {
